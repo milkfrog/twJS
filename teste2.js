@@ -1,5 +1,12 @@
 javascript:
 
+var settings = {
+"highFarm": 23000,
+"lowPoints": 3000,
+"builtOutPercentage": 0.25,
+"needsMorePercentage": 0.85
+};
+
 var version = "4a";
 var debug = 0;
 function getGameDoc(winvar) {
